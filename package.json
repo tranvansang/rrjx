@@ -1,0 +1,18 @@
+{
+  "name": "rrjx",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:tranvansang/rrjx.git",
+  "author": "Tran Sang <tr@nsang.me>",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "keywords": [
+    "range",
+    "iterator",
+    "xrange",
+    "utility"
+  ],
+  "license": "MIT"
+}
