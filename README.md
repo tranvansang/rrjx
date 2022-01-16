@@ -12,9 +12,11 @@ yarn add rrjx
 ```
 
 ```javascript
-import {range} from 'rrjx'
+import range from 'rrjx'
 // or
-const {range} = require('rrjx')
+const range = require('rrjx')
+// or
+const range = require('rrjx').default
 ```
 
 ## Usage
@@ -22,7 +24,8 @@ const {range} = require('rrjx')
 ### Exported type
 
 ```typescript
-export declare function range(startOrCount: number, end?: number, step?: number, inclusive?: boolean): Generator<number, void, unknown>;
+declare function range(startOrCount: number, end?: number, step?: number, inclusive?: boolean): Generator<number, void, unknown>;
+export default range;
 ```
 
 ### Supported call patterns:
