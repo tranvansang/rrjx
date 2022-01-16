@@ -1,4 +1,4 @@
-const {range} = require('./index')
+const range = require('./index')
 
 console.log(require('./index'))
 
