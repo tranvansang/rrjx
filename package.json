@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "index.js",
   "repository": "https://github.com/tranvansang/rrjx",
-  "author": "Tran Sang <tr@nsang.me>",
+  "author": "Tran Sang <me@transa.ng>",
   "files": [
     "index.js",
     "index.d.ts"
