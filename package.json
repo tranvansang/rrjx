@@ -1,18 +1,25 @@
 {
-  "name": "rrjx",
-  "version": "0.1.1",
-  "main": "index.js",
-  "repository": "https://github.com/tranvansang/rrjx",
-  "author": "Tran Sang <me@transa.ng>",
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
-  "keywords": [
-    "range",
-    "iterator",
-    "xrange",
-    "utility"
-  ],
-  "license": "MIT"
+	"name": "rrjx",
+	"version": "0.1.1",
+	"main": "index.js",
+	"repository": "https://github.com/tranvansang/rrjx",
+	"author": "Tran Sang <me@transa.ng>",
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"index.mjs"
+	],
+	"exports": {
+		".": {
+			"import": "./index.mjs",
+			"require": "./index.js"
+		}
+	},
+	"keywords": [
+		"range",
+		"iterator",
+		"xrange",
+		"utility"
+	],
+	"license": "MIT"
 }

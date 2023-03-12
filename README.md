@@ -14,8 +14,6 @@ yarn add rrjx
 ```javascript
 import range from 'rrjx'
 // or
-const range = require('rrjx')
-// or
 const range = require('rrjx').default
 ```
 

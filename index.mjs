@@ -1,6 +1,3 @@
-'use strict'
-Object.defineProperty(exports, '__esModule', {value: true})
-
 function* range(startOrCount, end, step = 1, inclusive = false) {
 	if (typeof end === 'undefined') {
 		end = startOrCount
@@ -10,4 +7,4 @@ function* range(startOrCount, end, step = 1, inclusive = false) {
 		yield i
 }
 
-exports.default = range
+export default range

@@ -7,4 +7,3 @@ function* range(startOrCount: number, end?: number, step = 1, inclusive = false)
 }
 
 export default range
-module.exports = range
