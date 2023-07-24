@@ -15,8 +15,6 @@ yarn add rrjx
 import range from 'rrjx'
 // or
 const range = require('rrjx')
-// or
-const range = require('rrjx').default
 ```
 
 ## Usage

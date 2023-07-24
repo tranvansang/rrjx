@@ -1,7 +1,6 @@
-const range = require('./index').default
+const range = require('./index')
 
 console.log(range)
-console.log(require('./index').default === require('./index'))
 
 console.log(range(3))
 if ([
