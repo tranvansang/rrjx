@@ -1,7 +1,4 @@
-const range = require('./index').default
-
-console.log(range)
-console.log(require('./index').default === require('./index'))
+import range from './index.mjs'
 
 console.log(range(3))
 if ([

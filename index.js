@@ -10,4 +10,5 @@ function* range(startOrCount, end, step = 1, inclusive = false) {
 		yield i
 }
 
-exports.default = range
+module.exports = range
+range.default = range
